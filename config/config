@@ -103,7 +103,7 @@ PREINSTALL_SNAP_PACKAGES_VALUES="no | yes"
 
 
 GITHUB_URL="https://github.com"
-FENIX_BRANCH="master"
+FENIX_BRANCH="feature/earc_kvim4"
 [[ "$CLONE_FULL_COMMIT_LOG" == "no" ]] && GIT_CLONE_OPTIONS="--depth=1"
 
 ROOTFSCACHE_VERSION=8
@@ -382,8 +382,8 @@ ROOTFS_CACHE_URL="http://build.khadas.com/khadas/fenix/cache/rootfs"
 PACKAGES_URL="http://build.khadas.com/khadas/fenix/packages"
 
 ## U-boot & Linux GitHub URL
-LINUX_SOURCE_URL="${LINUX_SOURCE_URL:-https://github.com/khadas/linux}"
-LINUX_COMMON_DRIVERS_SOURCE_URL="${LINUX_COMMON_DRIVERS_SOURCE_URL:-https://github.com/khadas/common_drivers}"
+LINUX_SOURCE_URL="${LINUX_SOURCE_URL:-https://github.com/strilov/khadas_linux}"
+LINUX_COMMON_DRIVERS_SOURCE_URL="${LINUX_COMMON_DRIVERS_SOURCE_URL:-https://github.com/strilov/khadas_common_drivers}"
 UBOOT_SOURCE_URL="${UBOOT_SOURCE_URL:-https://github.com/khadas/u-boot}"
 
 if [[ $DOWNLOAD_MIRROR == china ]] ; then
